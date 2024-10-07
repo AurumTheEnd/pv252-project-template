@@ -1,7 +1,7 @@
 const template = document.createElement("template");
 template.innerHTML = `
 <style>
-div.list {
+div#list {
   height: var(--height);
   width: var(--width);  
   border: var(--border);
