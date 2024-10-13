@@ -19,6 +19,7 @@
     "format": "prettier ./src --write",
     "check-lint": "eslint ./src",
     "check-format": "prettier ./src --check",
+    "check-format-and-fix": "prettier ./src --write",
     "check-types": "tsc"
   },
   "author": "",
