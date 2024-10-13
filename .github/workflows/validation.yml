@@ -1,9 +1,9 @@
 name: Validation
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, seminar*]
   pull_request:
-    branches: [main, master]
+    branches: [main, master, seminar*]
 jobs:
   check-format:
     timeout-minutes: 60
